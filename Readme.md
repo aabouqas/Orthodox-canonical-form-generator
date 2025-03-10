@@ -24,7 +24,7 @@ For each `.hpp` file, the script:
 
 ## Installation
 
-1. Download or create the `mc` script file.
+1. Download the `mc` script file.
 2. Move the script to a directory that is part of your system's `PATH` (e.g., `/usr/local/bin/` or `~/bin/`), or add its directory to the `PATH` by modifying your shell configuration file (e.g., `~/.bashrc`, `~/.zshrc`):
    
    Add the following line:
