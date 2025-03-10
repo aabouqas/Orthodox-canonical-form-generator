@@ -1,14 +1,7 @@
-# C++ Header File Generator Script (`mc`)
+# C++ Header File Generator
 
 ## Overview
 The `mc` script automates the creation of C++ header files (`.hpp`). It scans the current directory for `.hpp` files and checks if they are empty. If the file is empty, it generates a C++ class template and writes it to the file. The class name is derived from the filename (without the `.hpp` extension).
-
-## Features
-- Scans the current directory for `.hpp` files.
-- Checks if each `.hpp` file is empty.
-- If a file is empty, it generates a C++ class template with the class name based on the file's name.
-- If no `.hpp` files are found, the script exits with a message.
-- If a `.hpp` file is not empty, the script skips it and prints a message.
 
 ## Script Explanation
 
