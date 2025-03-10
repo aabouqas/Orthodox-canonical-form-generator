@@ -1,4 +1,4 @@
-# C++ Header File Generator
+# Orthodox-canonical-form-generator
 
 ## Overview
 The `mc` script automates the creation of C++ header files (`.hpp`). It scans the current directory for `.hpp` files and checks if they are empty. If the file is empty, it generates a C++ class template and writes it to the file. The class name is derived from the filename (without the `.hpp` extension).
